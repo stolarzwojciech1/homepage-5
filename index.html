@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praca domowa 3</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100;1,400&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body class="body">
+
+    <header>
+        <h1 class="body__header">Homepage Wojciech Stolarz - frontenddeveloper</h1>
+    </header>
+
+    <nav class="navigation navigation--dark">
+        <ul class="navigation__list">
+
+            <li class="navigation__item"><a class="navigation__link" href="#pierwsza_sekcja">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#druga_sekcja">Tabelka z ocenami</a></li>
+            <li class="navigation__item"> <a class="navigation__link navigation__link--three"
+                    href="#trzecia_sekcja">Trzecia sekcja</a></li>
+
+        </ul>
+    </nav>
+
+    <img width="200" src="https://i.postimg.cc/C1x6gH0h/horse.jpg" alt="Tekst aletrnatywny tu powiniien być kuń">
+
+    <main>
+
+        <article id="pierwsza_sekcja" class="article">
+            <h2 class="article__header">Cześć jestem Wojtek Stolarz. Co ja tu robię?</h2>
+            <p class="article__paragraph"> Znalezłem się tu ponieważ, chcę z pasją rozwijać front end development</p>
+
+        </article>
+
+        <article class="article article--dark">
+            <h2 class="article__header">Kim jestem?</h2>
+            <p class="article__paragraph article__paragraph--highlighted"> <strong>Jestem</strong><b> kim
+                    jestem.</b><br> <em> Chaiłbym</em> nauczyć się
+                <i>programowania</i>
+                i zmienić swoje życie <br>aktualnie jestem bez pracy. <span class="kolorek">Chciałbym ją szybko
+                    znaleść</span> po ukończniu tego kursu
+            </p>
+
+        </article>
+
+        <div id="druga_sekcja" class="container">
+            <table class="table">
+                <caption class="table__caption">A tu tabelka z ocenami</caption>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="col">Imie</th>
+                    <th class="table__cell table__cell--header" scope="col">Ocena</th>
+                    <th class="table__cell table__cell--header" scope="col">Obecność</th>
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Mirisław</th>
+                    <td class="table__cell">1</td>
+                    <td class="table__cell">obecny</td>
+
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Andrezej</th>
+                    <td class="table__cell" rowspan="2">3</td>
+                    <td class="table__cell">nieobecny</td>
+
+
+                </tr>
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Mateusz</th>
+                    <td class="table__cell">nieobecny</td>
+
+
+                <tr class="table__row">
+                    <th class="table__cell table__cell--header" scope="row">Mateusz</th>
+                    <td class="table__cell">5</td>
+                    <td class="table__cell">nieobecny</td>
+
+
+                </tr>
+
+
+
+            </table>
+        </div>
+        <section id="trzecia_sekcja">
+            <p>Jak o HTML mówi wikipedia</p>
+            <a class="section__link" rel="noreferrer noopener" target="_blank" href="https://pl.wikipedia.org/wiki/HTML"
+                title="Coś o HTMl na wikipedi">
+
+                Wikipedia</a>
+
+            <a class="section__link" href="https://i.postimg.cc/C1x6gH0h/horse.jpg"
+                download="https://i.postimg.cc/C1x6gH0h/horse.jpg">Obrazek do pobrania</a>
+
+
+            <a class="section__link" href="mailto:wojciechstolarz1@gmail.com">Mój adres mail</a>
+
+            <p>
+                <button class="section__button"><span class="section__buttonName">Tło 2</span></button>
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>Prawa autorskie zastrzeżone 2023 Wojciech Stolarz</footer>
+    <!--Komentarz-->
+
+</body>
+
+</html>
