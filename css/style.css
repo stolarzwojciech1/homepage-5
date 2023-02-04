@@ -109,6 +109,7 @@ a {
 
 .article__paragraph {
     color: rgb(128, 126, 126);
+    text-indent: 50px;
 }
 
 .article__paragraph--highlighted {
@@ -177,4 +178,33 @@ a {
     border: 2px solid rgb(172, 49, 22);
     margin: 50px auto;
 
+}
+
+.header__title {
+    color: blue;
+    text-align: center;
+    text-decoration: underline  red;
+    text-decoration-style: wavy;
+
+}
+ 
+.image {
+    height: 400px;
+    width: 500px;
+    background-image: url("../images/horse2.jpg") ;
+    resize: both;
+overflow: auto;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color: black;
+background-attachment: scroll;
+
+}
+
+.body__element{
+    width: 300px;
+    object-position: right;
+    margin: auto;
+    display: block;
 }
