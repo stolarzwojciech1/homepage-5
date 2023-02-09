@@ -1,4 +1,4 @@
-
+{
 const welcome = () =>{
 console.log("Cześć");
 }
@@ -23,3 +23,4 @@ button.addEventListener("click", button1);
 
 }
 init();
+}
