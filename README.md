@@ -5,7 +5,7 @@ And below my efforts in creating a website
 ## Demo:
 https://stolarzwojciech1.github.io/homepage
  
- ### Technologies used in the project
+### Technologies used in the project
 
     HTML
     CSS
