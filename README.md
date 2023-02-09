@@ -3,4 +3,4 @@
 And below my efforts in creating a website
 
 ## Demo:
-https://stolarzwojciech1.github.io/homepage-5/
+https://stolarzwojciech1.github.io/homepage

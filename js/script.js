@@ -6,7 +6,7 @@ console.log("Cześć");
 welcome();
 
 const button1 = () => {
-const themeName = document.querySelector(".themeName");
+const themeName = document.querySelector(".section__buttonName");
 const body = document.querySelector(".body");
 
 body.classList.toggle("body__dark");
